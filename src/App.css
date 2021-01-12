@@ -1,0 +1,85 @@
+body {
+  background-color: #828A95;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  color: #FFFFFF;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+h2 {
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: #CEEAF7;
+}
+
+h3 {
+  color: #FFFFFF;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px 0;
+  text-align: center;
+}
+
+button {
+  margin: 20px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  background: #1db954;
+  outline: 0;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 1em;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  border: 1px solid #1db954;
+  transition: all .5s ease;
+  box-shadow: 2px 2px 3px rgba(0,0,0, .3);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #20C95B;
+  transition: all .5s ease;
+}
+
+.filter-box {
+  margin-bottom: 40px;
+}
+
+.filter-box input {
+  height: 20px;
+  width: 120px;
+  outline: 0;
+  border-radius: 5px;
+}
+
+.playlist-title{
+  font-size: 1em;
+}
+.playlist-box {
+  color: #FFFFFF;
+  padding: 10px;
+  margin: 20px 10px;
+  display: inline-block;
+  width: 20%;
+  height: 300px;
+  border: 1px solid #FFFFFF;
+}
+
+.cover-img {
+  width:200px;
+  height: 200px;
+}
